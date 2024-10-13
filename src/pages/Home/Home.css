@@ -11,6 +11,7 @@
     color: #3AAFA9;
     font-weight: bold;
     margin: 0;
+    margin-bottom: 5px;
 }
 
 .circle {
@@ -147,7 +148,12 @@ img[alt="Image1"] {
 }
 
 .about-content p {
+
     line-height: 1.8;
+}
+
+.about-content {
+    padding-top: 20px;
 }
 
 .contact-info img {
@@ -184,6 +190,8 @@ img[alt="Image1"] {
 .contact-info {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    background-color: #FFFFFF;
 }
 
 .advice-container {
@@ -324,13 +332,25 @@ img[alt="Image1"] {
     margin-bottom: 15px;
 }
 
-.vision-goal-container {
-    display: flex;
-    justify-content: center;
+.www-juan {
+    height: auto;
+    width: 400px;
 }
 
-.vision-goal-container div {
-    width: 80%;
+.vision-goal-img img {
+    height: auto;
+    width: 25px;
+}
+
+.vision-goal-img {
+    text-align: center;
+    align-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: #3aafa914;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .view-more {
@@ -341,6 +361,7 @@ img[alt="Image1"] {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px 5px 5px 5px;
+    margin: 0;
 }
 
 .view-more:hover {
@@ -355,12 +376,16 @@ div h2 {
 
 div p {
     font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
+
 .des h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: #0E1F51;
     margin: 0;
+    padding-bottom: 10px;
 }
 
 .juan img {
@@ -375,14 +400,22 @@ div p {
 
 .vision-goal-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
 .vision-goal-item {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    width: 263px;
+    margin-top: 20px;
 }
 
 .vision-goal-item img {
@@ -392,22 +425,19 @@ div p {
 
 .vision-goal-item h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .vision-goal-item p {
     margin-top: 10px;
-    font-size: 1rem;
+    font-size: 14px;
+    color: #0E1F51;
 }
 
 .services {
     margin-top: 50px;
     text-align: center;
     padding: 40px 20px;
-}
-
-.title-sect {
-    font-size: 1.5rem;
 }
 
 .services h2 {
@@ -463,11 +493,6 @@ div p {
     margin-bottom: 10px;
 }
 
-.separator {
-    color: #999;
-    margin-bottom: 10px;
-}
-
 .card p {
     font-size: 0.9rem;
     color: #666;
@@ -517,9 +542,9 @@ div p {
 }
 
 .our-lead {
-    font-size: 40px;
+    font-size: 30px;
     color: #0E1F51;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 
 }
