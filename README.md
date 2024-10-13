@@ -25,4 +25,3 @@ This website is built with the following technologies:
 This project is licensed under the MIT License.
 =======
 # Adovelopers-Official-Website
->>>>>>> 341f78ce881f7662eff779b772a274df61d3d45c
