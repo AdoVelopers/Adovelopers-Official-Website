@@ -133,7 +133,7 @@ function Home() {
             </div>
 
             <div className='wwd-container'>
-                <div className='juan'>
+                <div className='www-juan'>
                     <img src={Juan} alt="" />
                 </div>
 
@@ -150,22 +150,25 @@ function Home() {
 
                     <div className="vision-goal-container">
                         <div className="vision-goal-item">
-                            <img src={Goal} alt="Goal Image" />
-                            <div>
-                                <h2>Our Vision</h2>
+                            <div className="vision-goal-img">
+                                <img src={Goal} alt="Goal Image" />
+                            </div>
+                            <div className="vision-goal-text">
+                                <h2 className='wwd-title'>Our Vision</h2>
                                 <p>Innovating the future with smart, user-friendly tech.</p>
                             </div>
                         </div>
                         <div className="vision-goal-item">
-                            <img src={Vision} alt="Vision Image" />
-                            <div>
-                                <h2>Our Goal</h2>
+                            <div className="vision-goal-img">
+                                <img src={Vision} alt="Vision Image" />
+                            </div>
+                            <div className="vision-goal-text">
+                                <h2 className='wwd-title'>Our Goal</h2>
                                 <p>Empowering businesses with scalable solutions.</p>
                             </div>
                         </div>
                     </div>
-
-                    <div>
+                    <div className='view-more-container'>
                         <button className='view-more'>View More</button>
                     </div>
                 </div>
