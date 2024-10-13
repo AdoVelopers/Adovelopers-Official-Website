@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import WeAreHere from '/src/assets/weAreHere.png';
 import Group65 from '/src/assets/Group65.png';
 import Image1 from '/src/assets/img1.png';
@@ -22,6 +22,7 @@ import Karl from '/src/assets/ourlead/karl.png'
 import Aaron from '/src/assets/ourlead/aaron.png'
 import Bryan from '/src/assets/ourlead/bryan.png'
 import JuanB from '/src/assets/ourlead/juan.png'
+
 
 
 function Home() {
@@ -276,6 +277,19 @@ function Home() {
                         <div><h4>Juan Rodrigo C Badiola</h4></div>
                         <div><p>CTO, Lead System Analyst</p></div>
                     </div>
+                </div>
+                <div className='seemore'>
+                    See More
+                </div>
+
+
+            </div>
+
+            <div>
+                <div>
+                    <div><p className='title-sect'>&lt;From our/&gt;</p>
+                        <h2 className='our-lead'>Our Leaders</h2></div>
+
                 </div>
 
             </div>
