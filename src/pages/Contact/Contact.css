@@ -1,0 +1,422 @@
+.contact-container {
+    width: 100%;
+}
+
+.contact-container .banner {
+    background-color: #2B7A78;
+    height: 288px;
+    width: 100%;
+    position: relative; /* Allow it to scroll with the page */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any padding */
+}
+
+.contact-container .banner .text-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 188px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    top: 100px;
+}
+
+.contact-container .banner .text-wrapper {
+    color: white;
+    font-family: "Raleway-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.contact-container .banner .title {
+    color: #3AAFA9;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 58px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.contact-container .contact-form {
+    position: relative;
+    top: 0; /* No gap between banner and form */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container .overlap {
+    height: 810px;
+    width: 100%;
+    position: relative;
+}
+
+.contact-container .rectangle {
+    background-color: rgba(58, 175, 169, 0.05); /* Adjust the opacity */
+    height: 810px;
+    position: relative;
+    width: 100%;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.contact-container .form-group {
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    left: 150px;
+    position: absolute;
+    top: 210px;
+    width: 750px;
+}
+
+.contact-container .overlap-group-wrapper {
+    height: 50px;
+    left: 30px;
+    position: absolute;
+    top: 420px;
+    width: 128px;
+}
+
+.contact-container .overlap-group {
+    background-color: #3AAFA9;
+    border-radius: 5px;
+    height: 50px;
+    position: relative;
+    width: 126px;
+}
+
+.contact-container .send-now {
+    color: white;
+    font-family: "Raleway-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    top: 12px;
+    left: 24px;
+}
+
+.input-field {
+    margin-top: 25px;
+    margin-left: 24px;
+    background-color: #f7f7f7; /* Background color similar to the existing design */
+    border: none; /* Remove border for a clean look */
+    border-radius: 10px; /* Same border radius as the div-wrapper */
+    height: 52px; /* Consistent height for text inputs */
+    width: 93%; /* Full width */
+    padding: 0 15px; /* Padding for text input */
+    font-family: "Raleway-Medium", Helvetica; /* Match existing font */
+    font-size: 16px; /* Match existing font size */
+    color: #252525; /* Match existing text color */
+    line-height: 30px; /* Match existing line height */
+    font-weight: 550;
+}
+
+textarea.input-field {
+    height: 150px; /* Height for message textarea */
+    resize: none; /* Prevent resizing */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.contact-container .rectangle .get-in-touch {
+    color: #3AAFA9;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: center;
+    position: absolute; /* Keep absolute positioning */
+    top: 100px; /* Adjust this value as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+}
+
+.contact-container .lets-talk {
+    color: #2B7A78;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    top: 130px; /* Position as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.contact-container .call-card{
+    height: 500px;
+    left: 928px;
+    position: absolute;
+    top: 210px;
+    width: 360px;
+}
+
+.contact-container .group-5{
+    height: 500px;
+    width: 370px;
+}
+
+.contact-container .overlap-3{
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    position: relative;
+    width: 360px;
+}
+
+.contact-container .linkedin{
+    background-color: #3AAFA9;
+    border-radius: 10px;
+    height: 60px;
+    left: 30px;
+    position: absolute;
+    top: 410px;
+    width: 60px;
+}
+
+.contact-container .text-wrapper-linkedin{
+    color: white;
+    font-family: "Font Awesome 6 Brands-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.contact-container .instagram{
+    background-color: #3AAFA9;
+    border-radius: 10px;
+    height: 60px;
+    left: 110px;
+    position: absolute;
+    top: 410px;
+    width: 60px;
+}
+
+.contact-container .text-wrapper-ig{
+    color: white;
+    font-family: "Font Awesome 6 Brands-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.contact-container .facebook{
+    background-color: #3AAFA9;
+    border-radius: 10px;
+    height: 60px;
+    left: 190px;
+    position: absolute;
+    top: 410px;
+    width: 60px;
+}
+
+.contact-container .text-wrapper-fb{
+    color: white;
+    font-family: "Font Awesome 6 Brands-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.contact-container .twitter{
+    background-color: #3AAFA9;
+    border-radius: 10px;
+    height: 60px;
+    left: 270px;
+    position: absolute;
+    top: 410px;
+    width: 60px;
+}
+
+.contact-container .text-wrapper-x{
+    color: white;
+    font-family: "Font Awesome 6 Brands-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    white-space: nowrap;
+}
+
+.contact-container .follow-us{
+    color: #2B7A78;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 126px;
+    letter-spacing: 0;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: 355px;
+    white-space: nowrap;
+}
+
+.contact-container .call-anytime-group{
+    height: 70px;
+    left: 30px;
+    position: absolute;
+    top: 35px;
+    width: 306px;
+}
+
+.contact-container .call-anytime-wrapper{
+    color: #3AAFA9;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.contact-container .mobile{
+    color: #2B7A78;
+    font-family: "Raleway-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+    width: 215px;
+}
+
+.contact-container .call-icon-group{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+
+.contact-container .send-email-group{
+    height: 70px;
+    left: 30px;
+    position: absolute;
+    top: 135px;
+    width: 306px;
+}
+
+.contact-container .send-email{
+    color: #3AAFA9;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    white-space: nowrap;
+}
+
+.contact-container .email-address{
+    color: #2B7A78;
+    font-family: "Raleway-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 25px;
+    left: 85px;
+    width: 215px;
+}
+
+.contact-container .email-icon-group{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+
+.contact-container .visit-us-group{
+    height: 70px;
+    left: 30px;
+    position: absolute;
+    top: 235px;
+    width: 306px;
+}
+
+.contact-container .visit-us{
+    color: #3AAFA9;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    white-space: nowrap;
+}
+
+.contact-container .address{
+    color: #2B7A78;
+    font-family: "Raleway-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 25px;
+    left: 85px;
+    width: 215px;
+}
+
+.contact-container .visit-icon-group{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
