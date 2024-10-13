@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+footer {
+    margin: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    background: #2B7A78;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text p {
+    font-size: 14px;
+}
+
+.logo-text img {
+    width: 42px;
+    height: 42px;
+}
+
+.footer-services {
+    padding-left: 50px;
+}
+
+.footer-background {
+    width: 100%;
+    background: #2B7A78;
+    position: relative;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    padding-left: 100px;
+
+}
+
+.footer-services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service {
+    font-size: 13px;
+}
+
+.job-role {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    gap: 20px;
+}
+
+.career-section {
+    padding-left: 80px;
+}
+
+.career-title,
+.services-title,
+.subscribe-title,
+.logo-text {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icon-container img {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+.role-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.role-title {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #3AAFA9;
+    white-space: nowrap;
+}
+
+.role-experience {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.email-input {
+    width: 262px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.email-input::placeholder {
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+.subscribe-btn {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #3AAFA9;
+    color: white;
+    border: none;
+    right: 10px;
+    left: 0px;
+    margin-left: 160px;
+}
+
+.group {
+    display: flex;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.g1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+}
+
+.footer-text {
+    display: flex;
+    line-height: 1.8;
+
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.subscribe-section {
+    padding-left: 50px;
+}
+
+.footer-text-large {
+    gap: 20px;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.socials img {
+    height: auto;
+    width: 30px;
+}
+
+.subs {
+    padding-left: 50px;
+}

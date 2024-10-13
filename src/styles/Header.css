@@ -1,0 +1,123 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6.25rem;
+  font-size: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo-ado {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 50%;
+  background-color: rgb(58, 175, 169);
+  overflow: hidden;
+  margin-right: 0.625rem;
+}
+
+.logo-container img {
+  object-fit: contain;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+ul li {
+  margin: 0 0.9375rem;
+  position: relative;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  padding: 0.5rem 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+button {
+  margin-left: 1.25rem;
+}
+
+.get-in-touch-btn {
+  background: #3AA4A9;
+  border: none;
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  padding: 0.500rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
+
+.underline {
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  background-color: #3AAFA9;
+  transition: left 0.4s ease, width 0.4s ease;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+button {
+  margin-left: 1.25rem;
+}
+
+
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  margin-left: 1.25rem;
+}
+
+.get-in-touch-btn {
+  background: #3AA4A9;
+  border: none;
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  padding: 0.500rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+
+}
