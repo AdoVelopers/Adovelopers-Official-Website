@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Adovelopers Official Website
 
 Welcome to the official repository for the **Adovelopers** company website. Adovelopers is an IT startup specializing in developing cutting-edge technology solutions, including AI, automation, machine learning, embedded systems, and cloud technologies.
