@@ -22,6 +22,5 @@ This website is built with the following technologies:
 
 ## License
 
-This project is licensed under the MIT License.
-=======
-# Adovelopers-Official-Website
+This project is licensed under the [MIT License](https://github.com/AdoVelopers/Adovelopers-Official-Website/blob/main/LICENSE).
+
