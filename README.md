@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Adovelopers Official Website
 
 Welcome to the official repository for the **Adovelopers** company website. Adovelopers is an IT startup specializing in developing cutting-edge technology solutions, including AI, automation, machine learning, embedded systems, and cloud technologies.
@@ -23,3 +24,6 @@ This website is built with the following technologies:
 ## License
 
 This project is licensed under the MIT License.
+=======
+# Adovelopers-Official-Website
+>>>>>>> 341f78ce881f7662eff779b772a274df61d3d45c
