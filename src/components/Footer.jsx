@@ -9,8 +9,6 @@ import Twitter from '/src/assets/icons/twitter.png'
 import Instagram from '/src/assets/icons/instagram.png'
 import Ado from '/src/assets/icons/Adovelopers.png'
 
-
-
 function Footer() {
     return (
         <footer>
