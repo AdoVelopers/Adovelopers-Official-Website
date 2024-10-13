@@ -318,7 +318,7 @@ textarea.input-field {
     letter-spacing: 0;
     line-height: 20px;
     position: absolute;
-    top: 10px;
+    top: 26px;
     left: 85px;
     width: 215px;
 }
@@ -419,5 +419,3 @@ textarea.input-field {
     position: absolute;
     top: 0;
     width: 70px;
-}
-
