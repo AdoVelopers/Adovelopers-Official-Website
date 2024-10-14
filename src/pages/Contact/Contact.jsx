@@ -85,7 +85,7 @@ function Contact() {
                                             &nbsp;&nbsp;054 884 6685
                                         </p>
                                         <div className='call-icon-group'>
-                                            <div className='call-icon'>?</div>
+                                            <div className='call-icon'>📞</div>
                                         </div>
                                     </div>
                                     <div className='send-email-group'>
