@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
 import WeAreHere from '/src/assets/weAreHere.png';
 import Group65 from '/src/assets/Group65.png';
 import Image1 from '/src/assets/img1.png';
@@ -17,15 +18,61 @@ import Cloud from '/src/assets/icons/cloud.png'
 import AppDev from '/src/assets/icons/appdev.png'
 import Ai from '/src/assets/icons/ai.png'
 import Automation from '/src/assets/icons/automation.png'
+import Basta from '/src/assets/icons/basta.png'
 
 import Karl from '/src/assets/ourlead/karl.png'
 import Aaron from '/src/assets/ourlead/aaron.png'
 import Bryan from '/src/assets/ourlead/bryan.png'
 import JuanB from '/src/assets/ourlead/juan.png'
 
+import KarlBilog from '/src/assets/testimonial/karl-bilog.png'
+import Jl from '/src/assets/testimonial/Jl.png'
+
 
 
 function Home() {
+
+
+    const testimonials = [
+        {
+            image: KarlBilog,
+            text: "Building the Document Assistant AI was an amazing journey! The team’s creativity and problem-solving turned our concept into a powerful tool that simplifies document management and retrieval. A truly impressive project with real-world impact!",
+            name: "Santi Dope II",
+            position: "CEO, President"
+        },
+        {
+            image: Jl,
+            text: "Developing the fingerprint door lock system with this incredible team was a game-changer. Their commitment and technical skills brought our capstone project to life, creating a highly efficient and secure solution. Truly proud of what we accomplished together!",
+            name: "JL Bongalon",
+            position: "VP, AI Lead Developer"
+        },
+    ];
+
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const totalSlides = testimonials.length;
+
+    const nextSlide = () => {
+        setCurrentSlide((prev) => (prev === totalSlides - 1 ? 0 : prev + 1));
+    };
+
+    const prevSlide = () => {
+        setCurrentSlide((prev) => (prev === 0 ? totalSlides - 1 : prev - 1));
+    };
+
+    const goToSlide = (index) => {
+        setCurrentSlide(index);
+    };
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            nextSlide();
+        }, 5000);
+
+        return () => clearInterval(interval);
+    }, [currentSlide]);
+
+
+
     return (
         <div className='home-container'>
             <div className='circle'></div>
@@ -284,16 +331,38 @@ function Home() {
 
 
             </div>
+            <div className='testimonial-container'>
+                <div><p className='title-sect'>&lt;From our Customers/&gt;</p>
+                    <h2 className='our-lead'>Testimonials</h2></div>
+                <div className='testimonial-slide'>
+                    <div className='quotes-slide'>
+                        <div className='qoutes'>
+                            <img src={Basta} alt="Quotes" />
+                        </div>
+                        <div className='test-img'>
+                            <img src={testimonials[currentSlide].image} alt={testimonials[currentSlide].name} />
+                        </div>
+                    </div>
+                    <div className='current-slide'>
+                        <p>{testimonials[currentSlide].text}</p>
 
-            <div>
-                <div>
-                    <div><p className='title-sect'>&lt;From our/&gt;</p>
-                        <h2 className='our-lead'>Our Leaders</h2></div>
-
+                        <div className='for-spacing'>
+                            <h4>{testimonials[currentSlide].name}</h4>
+                            <h5>{testimonials[currentSlide].position}</h5>
+                        </div>
+                    </div>
                 </div>
 
+                <div className='dots-container'>
+                    {testimonials.map((_, index) => (
+                        <span
+                            key={index}
+                            className={`dot ${currentSlide === index ? 'active' : ''}`}
+                            onClick={() => goToSlide(index)}
+                        ></span>
+                    ))}
+                </div>
             </div>
-
         </div>
     );
 }
