@@ -18,7 +18,7 @@ This website is built with the following technologies:
 - **Responsive Design**: Optimized for all device types, providing seamless experiences across desktops, tablets, and mobile devices.
 - **AI & Automation Showcase**: Highlights our AI-driven solutions, machine learning models, and automation projects.
 - **Portfolio**: A section dedicated to our recent projects and case studies, showcasing the impact of our tech solutions.
-- **Contact Section**: Allows potential clients and partners to reach out to us for business inquiries and collaboration opportunities.
+- **Contact Section**: Allows potential clients and partners to reach out to us for business inquiries and collaboration opportunities. 
 
 ## License
 
