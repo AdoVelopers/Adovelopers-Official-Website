@@ -107,7 +107,7 @@ function Contact() {
                                             Nabua, Camarines Sur, 4434
                                         </div>
                                         <div className='visit-icon-group'>
-                                            <div className='visit-icon'>?</div>
+                                            <div className='visit-icon'>📌</div>
                                         </div>
                                     </div>
                                 </div>
