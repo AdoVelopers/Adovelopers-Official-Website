@@ -96,7 +96,7 @@ function Contact() {
                                             admin@adovelopers.cloud
                                         </div>
                                         <div className='email-icon-group'>
-                                            <div className='email-icon'>?</div>
+                                            <div className='email-icon'>✉️</div>
                                         </div>
                                     </div>
                                     <div className='visit-us-group'>
