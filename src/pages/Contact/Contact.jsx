@@ -74,7 +74,7 @@ function Contact() {
                                         <div className='text-wrapper-fb'>?</div>
                                     </div>
                                     <div className='twitter'>
-                                        <div className='text-wrapper-x'>?</div>
+                                        <div className='text-wrapper-x'>Χ</div>
                                     </div>
                                     <div className='follow-us'>Follow Us</div>
                                     <div className='call-anytime-group'>
