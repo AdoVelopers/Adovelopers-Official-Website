@@ -783,3 +783,21 @@ div p {
     height: auto;
     width: 50px;
 }
+
+@media (max-width: 768px) {
+
+    .circle3 {
+        position: relative;
+        bottom: 0;
+        top: -13.90rem;
+        right: 0;
+        left: 20.5rem;
+        width: 20.5rem;
+        height: 7.50rem;
+        margin-top: 6.25rem;
+        margin-left: 8.125rem;
+        background-color: rgba(23, 37, 42, 0.1);
+        border-radius: 50%;
+    }
+
+}

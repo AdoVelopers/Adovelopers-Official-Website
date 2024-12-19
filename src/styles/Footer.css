@@ -203,3 +203,152 @@ footer {
 .subs {
     padding-left: 50px;
 }
+
+@media (max-width: 768px) {
+
+    .logo-section,
+    .footer-services,
+    .career-section,
+    .subscribe-section {
+        max-width: 100%;
+    }
+}
+
+/* Logo Section */
+.logo-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text p {
+    font-size: 14px;
+}
+
+.logo-text img {
+    width: 42px;
+    height: 42px;
+}
+
+.footer-text {
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.socials img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.footer-services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.services-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service {
+    font-size: 13px;
+}
+
+.career-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.job-role {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-container img {
+    width: 20px;
+    height: auto;
+}
+
+.role-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.role-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #3AAFA9;
+}
+
+.role-experience {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-text-large {
+    line-height: 1.8;
+}
+
+.email-input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+.email-input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.subscribe-btn {
+    padding: 10px;
+    width: 100px;
+    background-color: #3AAFA9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-start;
+    cursor: pointer;
+    margin-right: 150px;
+}
+
+@media (max-width: 768px) {
+    .subscribe-btn {
+        width: 100%;
+    }
+}
